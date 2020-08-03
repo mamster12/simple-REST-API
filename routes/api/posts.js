@@ -74,8 +74,8 @@ router.get('/:id', auth, async (req, res) => {
     }
 });
 
-// @router  PUT api/profile/education
-// @desc    add profile education
+// @router  PUT api/posts/:id
+// @desc    edit user post
 // @access  Private
 router.put(
     '/:id',
